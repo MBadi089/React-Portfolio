@@ -9,7 +9,7 @@ const [categories] = useState([
     name: "Projects",
     description:
       "A list of Projects I have worked on during my Full-Stack Web Development Bootcamp with University of Texas At Austin",
-  }
+  },
 ]);
 
 const [currentCategory, setCurrentCategory] = useState(categories[0]);
@@ -22,10 +22,8 @@ return (
       currentCategory={currentCategory}
     ></Nav>
     <main>
-      <div>
-        <Projects></Projects>
+        <Projects currentCategory={currentCategory}></Projects>
         <About></About>
-      </div>
     </main>
   </div>
 );
