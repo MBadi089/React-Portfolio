@@ -3,8 +3,6 @@ import Nav from './components/Nav';
 import About from './components/About';
 import Projects from './components/Projects';
 import ContactForm from './components/Contact';
-import Background from './components/Background';
-
 
 
 
@@ -22,7 +20,6 @@ const [contactSelected, setContactSelected] = useState(false);
 
 return (
   <div>
-    <Background></Background>
     <Nav
       categories={categories}
       setCurrentCategory={setCurrentCategory}
