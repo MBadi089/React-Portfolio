@@ -6,7 +6,7 @@ import Projects from './components/Projects';
 function App() {
 const [categories] = useState([
   {
-    name: "Projects",
+    name: "projects",
     description:
       "A list of Projects I have worked on during my Full-Stack Web Development Bootcamp with University of Texas At Austin",
   },
