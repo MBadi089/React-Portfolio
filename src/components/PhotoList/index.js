@@ -4,14 +4,14 @@ const PhotoList = ({ category }) => {
 
   const [photos] = useState([
     {
-      name: 'Grocery aisle',
-      category: 'commercial',
-      description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ultricie',
+      name: 'MovieReddy',
+      category: 'Projects',
+      description: 'An application were users can create, edit, and delete a movie review',
     },
     {
-      name: 'Grocery booth',
-      category: 'commercial',
-      description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ultricie',
+      name: 'Health Tracker',
+      category: 'Projects',
+      description: 'An application were users can select a workout and meal to add to their own schedule',
     },
   ]);
 
