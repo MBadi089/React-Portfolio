@@ -11,7 +11,7 @@ const PhotoList = ({ category }) => {
     {
       name: 'Health Tracker',
       category: 'Projects',
-      description: 'An application were users can select a workout and meal to add to their own schedule',
+      description: 'An application where users can select a workout and meal to add to their own schedule',
     },
   ]);
 
