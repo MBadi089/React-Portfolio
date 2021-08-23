@@ -6,7 +6,7 @@ const PhotoList = ({ category }) => {
     {
       name: 'MovieReddy',
       category: 'Projects',
-      description: 'An application were users can create, edit, and delete a movie review',
+      description: 'An application where users can create, edit, and delete a movie review',
     },
     {
       name: 'Health Tracker',
