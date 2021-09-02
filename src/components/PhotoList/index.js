@@ -22,7 +22,7 @@ const PhotoList = ({ category }) => {
           <div className="flex-row">
           {currentPhotos.map((image, i) => (
               <img
-              src={require(`../../assets/projectimages/${category}/${i}.jpg`)}
+              src={require(`../../assets/projectimages/${category}/${i}.jpg`)}// src={require(`../../assets/projectimages/${category}/${i}.jpg`)}
               alt={image.name}
               className="img-thumbnail mx-1"
               key={image.name}
