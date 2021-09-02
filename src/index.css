@@ -34,7 +34,7 @@ body {
   line-height: 1.5;
   font-size: 18px;
   letter-spacing: .1em;
-  background-image: url("../src/assets/cover/background-image.jpg"); /*replacing background with a bigger image*/
+  background-image: url("../src/assets/cover/background-image.jpg");
   background-repeat: no-repeat;
   background-size: auto;
   color: var(--light);
@@ -93,9 +93,9 @@ a:hover {
   text-decoration: underline;
 }
 
-header {
+/* header {
   background: var(--dark);
-}
+} */
 
 header a {
   color: var(--light); /*this targets the black color font change "light later"*/

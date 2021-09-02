@@ -3,6 +3,7 @@ import Nav from './components/Nav';
 import About from './components/About';
 import Projects from './components/Projects';
 import ContactForm from './components/Contact';
+import PhotoList from './components/PhotoList';
 
 
 
@@ -11,7 +12,7 @@ const [categories] = useState([
   {
     name: "projects",
     description:
-      "A list of Projects I have worked on during my Full-Stack Web Development Bootcamp with University of Texas At Austin",
+      "A list of Projects I have worked on during my Full-Stack Web Development Bootcamp",
   },
 ]);
 
@@ -30,7 +31,9 @@ return (
     <main>
     {!contactSelected ? (
   <>
-    <Projects currentCategory={currentCategory}></Projects>
+    <Projects currentCategory={currentCategory}>
+    <PhotoList></PhotoList>
+    </Projects>
     <About></About>
   </>
 ) : (
