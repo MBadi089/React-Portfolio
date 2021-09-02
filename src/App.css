@@ -37,5 +37,5 @@
   }
 }
 .background{
-  background-image: url(./assets/cover/background-image.jpg);
+  background-image: url("./assets/cover/background-image.jpg");
 }
